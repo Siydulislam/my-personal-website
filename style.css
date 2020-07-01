@@ -1,6 +1,17 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.top-background{
+    background-image: url(images/header-bg.png);
+    background-size: cover;
+    height: 700px;
+}
+.top-half-width{
+    width: 30%;
+    float: left;
+    margin: 5%;
+    padding: 2%;
+}
 .name-color{
     color: palevioletred;
     font-size: 50px;
@@ -10,12 +21,6 @@ body{
 }
 h1{
     font-size: 40px;
-}
-.top-half-width{
-    width: 30%;
-    float: left;
-    margin: 5%;
-    padding: 2%;
 }
 .top-half-width img{
     width: 130%;
@@ -39,11 +44,6 @@ h1{
 }
 a:hover{
     background-color: palevioletred;
-}
-.top-background{
-    background-image: url(images/header-bg.png);
-    background-size: cover;
-    height: 700px;
 }
 .biography-background{
     background-image: url(images/biography-bg.png);
@@ -77,6 +77,11 @@ a:hover{
     margin: 3%;
     padding: 1%;
 }
+.latest-work-background{
+    background-image: url(images/latest-work-bg.png);
+    background-size: cover;
+    height: 500px;
+}
 .latest-work{
     text-align: center;
 }
@@ -88,14 +93,14 @@ a:hover{
     position: relative;
     right: 80px;
 }
-.latest-work-background{
-    background-image: url(images/latest-work-bg.png);
-    background-size: cover;
-    height: 500px;
-}
 .third-part:hover{
     width: 340px;
     height: 340px;
+}
+.footer-background{
+    background-image: url(images/footer-bg.png);
+    background-size: cover;
+    height: 800px;
 }
 .final-text{
     text-align: center;
@@ -120,9 +125,4 @@ a:hover{
 .last-part{
     text-align: center;
     font-size: 15px;
-}
-.footer-background{
-    background-image: url(images/footer-bg.png);
-    background-size: cover;
-    height: 800px;
 }
